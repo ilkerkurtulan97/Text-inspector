@@ -36,7 +36,7 @@ class Dosya():
         for i in self.sade_kelimeler:
             kelimeler_kümesi.add(i)
 
-        print("Tüm kelimeler . ............. . .")
+        print("All words ..........................")
 
         for i in kelimeler_kümesi:
 
@@ -57,7 +57,7 @@ class Dosya():
 
         for kelime,sayı in kelime_sozluk.items():
 
-            print(" {} kelimesi {} defa geçiyor...........".format(kelime,sayı))
+            print(" {} word repeated {} times ...........".format(kelime,sayı))
 
             print("----------------------------------------")
 
